@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Your Moving Companion</title>
+    <!-- <link rel="stylesheet" href="css/style.css"> -->
+</head>
+<body>
+    <div>
+        <div data-bind = 'text : name'></div>
+        <div data-bind = 'text : clickCounter'></div>
+        <div>
+            <img src='' data-bind = 'click : incrementClick, attr : {src : imageSrc } '>
+        </div>
+        <div data-bind = 'text : productLevel'></div>
+    
+    </div>
+    
+   
+    <script src= 'js/knockout.js'></script>
+    <script src="js/libs/jquery.min.js"></script>
+    <script src="js/script.js"></script>
+   
+</body>
+</html>
